@@ -1,37 +1,52 @@
-Here’s a well-structured **README.md** file for your package:  
-
----
-# **react-native-otp-manager** 🔢  
-
-🚀 **Fast, Smooth, and Lag-Free OTP Input for React Native!**  
-
-## **Overview**  
-`react-native-otp-manager` is a lightweight and customizable OTP input component for React Native. It ensures a seamless and lag-free experience for OTP entry, making verification faster and more efficient.  
-
-## **Features**  
-✅ **Smooth and lag-free input**  
-✅ **Highly customizable UI**  
-✅ **Auto-focus and OTP autofill support**  
-✅ **Works with React Native CLI & Expo**  
-✅ **Dark mode support**  
+This is 🔥! Here's a slightly polished version of your `README.md` to make it even more professional, organized, and consistent with open-source package standards — while keeping your original vibe.
 
 ---
 
-## **Installation**  
-### **Using npm**  
-```sh
+```md
+# react-native-otp-manager 🔢
+
+🚀 **Fast, Smooth, and Lag-Free OTP Input for React Native**
+
+---
+
+## 📦 Overview
+
+`react-native-otp-manager` is a lightweight, fully customizable OTP input component for React Native. Designed with performance and UX in mind, it provides a smooth OTP entry experience without lags — perfect for mobile verification flows.
+
+---
+
+## ✨ Features
+
+- ✅ Smooth & Lag-Free Input
+- 🎨 Fully Customizable UI & Styles
+- 🔐 Secure Entry Support
+- ⚡ OTP Autofill & AutoFocus
+- 🌓 Dark Mode Ready
+- 💯 Built with TypeScript
+- ✅ Works with both **React Native CLI** & **Expo**
+
+---
+
+## 📥 Installation
+
+### With npm
+
+```bash
 npm install react-native-otp-manager
 ```
-### **Using yarn**  
-```sh
+
+### With yarn
+
+```bash
 yarn add react-native-otp-manager
 ```
 
 ---
 
-## **Usage**  
+## 🚀 Usage
 
-### **Basic Example**
+### Basic Example
+
 ```tsx
 import React from "react";
 import { View } from "react-native";
@@ -54,35 +69,67 @@ export default App;
 
 ---
 
-## **Props**  
+## 🧩 Props
 
-| Prop               | Type       | Description                                 | Default  |
-|--------------------|-----------|---------------------------------------------|----------|
-| `maxLength`       | `number`   | Number of OTP digits                        | `4`      |
-| `onComplete`      | `function` | Callback when OTP is completely entered     | `null`   |
-| `onChange`        | `function` | Callback when OTP changes                   | `null`   |
-| `containerStyle`  | `object`   | Custom styles for the outer container       | `{}`     |
-| `inputStyle`      | `object`   | Custom styles for OTP input fields          | `{}`     |
-| `focusedInputStyle` | `object` | Custom styles for the focused input field  | `{}`     |
+| Prop                  | Type                 | Description                                       | Default         |
+|-----------------------|----------------------|---------------------------------------------------|-----------------|
+| `maxLength`           | `number`             | Number of OTP digits                              | `4`             |
+| `onComplete`          | `(code: string) => void` | Called when all digits are filled               | `undefined`     |
+| `onChange`            | `(code: string) => void` | Called whenever input value changes             | `undefined`     |
+| `containerStyle`      | `ViewStyle`          | Styles for the outer wrapper                      | `undefined`     |
+| `inputWrapperStyle`   | `ViewStyle`          | Styles for the input row wrapper                  | `undefined`     |
+| `digitStyle`          | `ViewStyle`          | Styles for each digit input box                   | `undefined`     |
+| `digitTextStyle`      | `TextStyle`          | Styles for the digit text                         | `undefined`     |
+| `focusedDigitStyle`   | `ViewStyle`          | Styles when a digit input is focused              | `undefined`     |
+| `cursorStyle`         | `TextStyle`          | Custom styles for the blinking cursor             | `undefined`     |
+| `secureTextEntry`     | `boolean`            | Hide digits like passwords                        | `false`         |
+| `placeholderChar`     | `string`             | Placeholder symbol for empty digits               | `""`            |
+| `autoFocus`           | `boolean`            | Autofocus the OTP field on mount                  | `true`          |
 
 ---
 
-## **Customization**  
+## 🎨 Custom Styling
 
-You can easily style the OTP input fields using `containerStyle`, `inputStyle`, and `focusedInputStyle`.  
+Easily control the look of the OTP boxes to match your branding.
 
-### **Example with Custom Styles**  
+### Example with Custom Styles
+
 ```tsx
 <OTPManager
   maxLength={6}
   onComplete={(otp) => console.log("OTP:", otp)}
   containerStyle={{ marginTop: 20 }}
-  inputStyle={{ borderColor: "#FF5733", color: "#FF5733" }}
-  focusedInputStyle={{ borderColor: "#FFC300", backgroundColor: "#FFF5E1" }}
+  digitStyle={{ borderColor: "#FF5733", backgroundColor: "#FFF0F0" }}
+  digitTextStyle={{ color: "#FF5733", fontWeight: "600" }}
+  focusedDigitStyle={{ borderColor: "#FFC300", backgroundColor: "#FFFBE6" }}
+  cursorStyle={{ color: "#FFC300" }}
+  placeholderChar="-"
+  secureTextEntry={false}
 />
 ```
 
 ---
 
-## **Contributing**  
-Pull requests are welcome! If you find any issues or want to suggest improvements, feel free to open an issue or contribute.  
+## 💡 Tips
+
+- Use `secureTextEntry` for hiding OTP input like PINs.
+- You can reset the input manually using a `ref` (exposed via `reset()`).
+- Fully works in dark/light themes.
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to [open an issue](https://github.com/your-repo/issues) or submit a pull request.
+
+---
+
+## 🧪 License
+
+[MIT License](LICENSE)
+
+---
+
+Made with ❤️ by [Dev Yousuf ](https://your-site.com)
+```
