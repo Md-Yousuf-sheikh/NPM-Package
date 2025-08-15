@@ -29,7 +29,7 @@
     "rn-otp-entry"
   ]
 ,
-  "author": "Md Yousuf Sheikh",
+  "author": "MdYousufSheikh",
   "license": "ISC",
   "peerDependencies": {
     "react": ">=16.0.0",
