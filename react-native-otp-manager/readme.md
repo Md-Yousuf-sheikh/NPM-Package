@@ -1,19 +1,11 @@
-This is 🔥! Here's a slightly polished version of your `README.md` to make it even more professional, organized, and consistent with open-source package standards — while keeping your original vibe.
-
----
-
-```md
-# react-native-otp-manager 🔢
+# react-native-otp-manager 
 
 🚀 **Fast, Smooth, and Lag-Free OTP Input for React Native**
-
----
 
 ## 📦 Overview
 
 `react-native-otp-manager` is a lightweight, fully customizable OTP input component for React Native. Designed with performance and UX in mind, it provides a smooth OTP entry experience without lags — perfect for mobile verification flows.
 
----
 
 ## ✨ Features
 
@@ -25,7 +17,14 @@ This is 🔥! Here's a slightly polished version of your `README.md` to make it 
 - 💯 Built with TypeScript
 - ✅ Works with both **React Native CLI** & **Expo**
 
----
+## Demo
+
+Try out React Native OTP Manager in action on Snack Expo:
+
+[![Snack Expo App](https://img.shields.io/badge/Snack-fff.svg?style=for-the-badge&logo=EXPO&labelColor=000&logoColor=FFF)](https://snack.expo.dev/@yousuf_sheikh/spunky-orange-beef-jerky?platform=android)
+
+or https://snack.expo.dev/@yousuf_sheikh/spunky-orange-beef-jerky?platform=android
+
 
 ## 📥 Installation
 
@@ -34,7 +33,6 @@ This is 🔥! Here's a slightly polished version of your `README.md` to make it 
 ```bash
 npm install react-native-otp-manager
 ```
-
 ### With yarn
 
 ```bash
