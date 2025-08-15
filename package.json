@@ -1,5 +1,5 @@
 {
-  "name": "@yourusername/react-native-otp-input",
+  "name": "@yousuf",
   "version": "1.0.0",
   "private": true,
   "description": "A customizable OTP input component for React Native",
@@ -15,7 +15,7 @@
     "input",
     "verification"
   ],
-  "author": "Your Name",
+  "author": "Md Yousuf Sheikh",
   "license": "ISC",
   "peerDependencies": {
     "react": ">=16.8.0",

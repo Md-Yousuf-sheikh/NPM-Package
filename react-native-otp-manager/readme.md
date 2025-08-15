@@ -128,5 +128,5 @@ Feel free to [open an issue](https://github.com/your-repo/issues) or submit a pu
 
 ---
 
-Made with ❤️ by [Dev Yousuf ](https://your-site.com)
+Made with ❤️ by [Dev Yousuf ](https://github.com/Md-Yousuf-sheikh)
 ```
