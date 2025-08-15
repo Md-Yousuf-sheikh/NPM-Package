@@ -1,6 +1,6 @@
 {
   "name": "react-native-otp-manager",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "react-native-otp-manager is a lightweight and high-performance OTP input component for React Native. It ensures a seamless user experience with no lag, making OTP verification faster and more efficient.",
   "main": "",
   "scripts": {
@@ -24,8 +24,9 @@
     "otp-input",
     "rn-otp-entry",
     "expo",
-    "react native otp"
-
+    "react native otp",
+    "react native otp",
+    "rn-otp-entry"
   ]
 ,
   "author": "dev yousuf",

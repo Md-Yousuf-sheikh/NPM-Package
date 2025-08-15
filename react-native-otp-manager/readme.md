@@ -1,7 +1,6 @@
 # react-native-otp-manager 
 
-🚀 **Fast, Smooth, and Lag-Free OTP Input for React Native**
-
+![Demo](demo_otp.gif)
 ## 📦 Overview
 
 `react-native-otp-manager` is a lightweight, fully customizable OTP input component for React Native. Designed with performance and UX in mind, it provides a smooth OTP entry experience without lags — perfect for mobile verification flows.
